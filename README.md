@@ -14,17 +14,17 @@
 Untuk login ke Git, Anda bisa menggunakan akun GitHub, Gitlab, atau Bitbucket. Jika belum memiliki akun dari ketiga platform tersebut, Anda bisa mendaftarkan diri terlebih dahulu. Selanjutnya Anda bisa melakukan login awal pada Git  menggunakan Command Prompt  (Windows) atau Command Line (Linux) . Kemudian masukkan perintah-perintah yang akan kami jelaskan di bawah ini.
 
 Selanjutnya, masukkan username GitHub Anda menggunakan perintah di bawah ini. Lalu tekan ENTER jika sudah benar.
-
+```ruby
 $ git config --global user.name "UsernameAnda"
-
+```
 Kemudian masukkan email yang terdaftar di GitHub Anda menggunakan perintah di bawah  ini. Lalu tekan ENTER jika sudah benar.
-
+```ruby
 $ git config --global user.email IsiDenganEmailAnda@gmail.com
-
+```
 Selanjutnya untuk memastikan proses login Anda berhasil, masukkan perintah berikut.
-
+```ruby
 $ git config --list
-
+```
 ![img](Screenshot/ss1.png)
 
 
@@ -67,9 +67,9 @@ Setelah berhasil membuat folder pada local disk komputer Anda,  buka folder ters
 *6. Ubah Folder Menjadi Repository*
 
 Setelah itu, ubah folder tersebut menjadi repository menggunakan perintah berikut:
-
+```ruby
 $ git init
-
+```
   
 *7. Tambahkan File ke Repository*
 
@@ -83,18 +83,18 @@ Untuk bisa menambahkan file ke repository GitHub, Anda perlu menerapkan langkah-
 *8. Buat Commit*
 
 Selanjutnya, Anda perlu membuat Commit. Commit berfungsi untuk menambahkan update file serta komentar. Jadi setiap kontributor bisa memberikan konfirmasi update file di proyek yang sedang dikerjakan. Masukkan perintah berikut untuk membuat Commit:
-
+```ruby
 $ git commit -m "first commit"
-
+```
 Pada tutorial ini kami membuat first commit sebagai Commit pertama kami. Anda bebas membuat membuat nama Commit apa saja.
   
 
 *9. Remote Repository Github*
 
 Remote repository berfungsi untuk mengupload file yang telah Anda buat sebelumnya di local disk. Masukkan perintah berikut ini untuk melakukan remote repository:
-
+```ruby
 $ git remote add origin git@github.com:UserNameGit/NamaRepository.git
-
+```
 Perintah di atas tidak akan menghasilkan output apa pun.
 
   
@@ -111,5 +111,4 @@ Jika proses login berhasil, akan muncul tampilan Command Prompt seperti di bawah
 
 *11. Cek File*
 
-Setelah itu, cek repository yang telah Anda buat. Anda akan mendapati file-file yang telah ditambahkan sebelumnya. Pada tutorial ini kami menambahkan tiga file, yaitu index.php, single.php, dan README.txt. 
-  
+Setelah itu, cek repository yang telah Anda buat. Anda akan mendapati file-file yang telah ditambahkan sebelumnya
