@@ -75,7 +75,7 @@ $ git init
 
 Untuk bisa menambahkan file ke repository GitHub, Anda perlu menerapkan langkah-langkah di bawah ini:
 
-• Buat file di folder yang sudah dibuat (Test Git). Contohnya, di sini kami membuat file index.php
+• Buat file di folder yang sudah dibuat (Test Git).
 
 • Perintah tersebut tidak akan menghasilkan output apa pun.
 
@@ -102,7 +102,7 @@ Perintah di atas tidak akan menghasilkan output apa pun.
 
 Langkah terakhir adalah push ke GitHub Push ini berfungsi untuk mengupload hasil akhir dari langkah-langkah di atas. Masukkan perintah berikut untuk melakukan push ke GitHub:
 ```ruby
-git push -u origin master
+$ git push -u origin master
 ```
 Perintah di atas akan menampilkan pop up sign in GitHub. Anda perlu login untuk melanjutkan proses push ke GitHub. 
   
